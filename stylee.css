@@ -1,0 +1,56 @@
+/* Gaya umum */
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+/* Gaya Card */
+.card {
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Card */
+.card-header {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Tombol Tambah */
+.btn-dark {
+  background-color: #343a40;
+  border-radius: 5px;
+}
+
+/* Tabel */
+.table {
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.table th {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+}
+
+.table td {
+  text-align: center;
+}
+
+/* Tombol Aksi */
+.btn-warning {
+  background-color: #f0ad4e;
+  border: none;
+}
+
+.btn-danger {
+  background-color: #d9534f;
+  border: none;
+}
+
+.btn-warning:hover,
+.btn-danger:hover {
+  opacity: 0.8;
+}
